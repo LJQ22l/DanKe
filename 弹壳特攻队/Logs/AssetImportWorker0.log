@@ -15,7 +15,7 @@ D:/Tool/xiang/弹壳特攻队
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57459
+50356
 Successfully changed project path to: D:/Tool/xiang/弹壳特攻队
 D:/Tool/xiang/弹壳特攻队
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Tool/xiang/弹壳特攻队
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11948] Host "[IP] 192.168.3.28 [Port] 0 [Flags] 2 [Guid] 2663017712 [EditorId] 2663017712 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-467RVN8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26000] Host "[IP] 192.168.3.28 [Port] 0 [Flags] 2 [Guid] 1205971825 [EditorId] 1205971825 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-467RVN8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11948] Host "[IP] 192.168.3.28 [Port] 0 [Flags] 2 [Guid] 2663017712 [EditorId] 2663017712 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-467RVN8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26000] Host "[IP] 192.168.3.28 [Port] 0 [Flags] 2 [Guid] 1205971825 [EditorId] 1205971825 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-467RVN8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-Refreshing native plugins compatible for Editor in 20.07 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 23.50 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.34f1c1 (1e17368ca73f)
 [Subsystems] Discovering subsystems at path D:/unity/2022.3.34f1c1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'D:/unity/2022.3.34f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2022.3.34f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/unity/2022.3.34f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2022.3.34f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/unity/2022.3.34f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/unity/2022.3.34f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011285 seconds.
-- Loaded All Assemblies, in  0.325 seconds
+Registered in 0.010701 seconds.
+- Loaded All Assemblies, in  0.318 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 251 ms
+Android Extension - Scanning For ADB Devices 1111 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.506 seconds
-Domain Reload Profiling: 826ms
-	BeginReloadAssembly (112ms)
+- Finished resetting the current domain, in  1.390 seconds
+Domain Reload Profiling: 1703ms
+	BeginReloadAssembly (96ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (25ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (116ms)
-		LoadAssemblies (109ms)
+	LoadAllAssembliesAndSetupDomain (122ms)
+		LoadAssemblies (92ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (111ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (100ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (107ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (507ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1390ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (461ms)
+		SetupLoadedEditorAssemblies (1340ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (338ms)
+			InitializePlatformSupportModulesInManaged (1208ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (83ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			ProcessInitializeOnLoadAttributes (85ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,53 +120,53 @@ Domain Reload Profiling: 826ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.629 seconds
-Refreshing native plugins compatible for Editor in 9.54 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.601 seconds
+Refreshing native plugins compatible for Editor in 11.35 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.583 seconds
-Domain Reload Profiling: 1200ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  0.584 seconds
+Domain Reload Profiling: 1174ms
+	BeginReloadAssembly (145ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (17ms)
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (391ms)
-		LoadAssemblies (352ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (371ms)
+		LoadAssemblies (323ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (134ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (99ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (584ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (100ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (585ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (459ms)
+		SetupLoadedEditorAssemblies (462ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (300ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (303ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
 			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 8.37 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 11.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4130 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (61.8 KB). Loaded Objects now: 4593.
-Memory consumption went from 153.0 MB to 153.0 MB.
-Total: 2.624900 ms (FindLiveObjects: 0.200300 ms CreateObjectMapping: 0.092800 ms MarkObjects: 2.154400 ms  DeleteObjects: 0.176400 ms)
+Unloading 66 unused Assets / (62.2 KB). Loaded Objects now: 4594.
+Memory consumption went from 153.1 MB to 153.1 MB.
+Total: 2.971200 ms (FindLiveObjects: 0.192700 ms CreateObjectMapping: 0.093200 ms MarkObjects: 2.565700 ms  DeleteObjects: 0.118500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,609 +184,125 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 29882.653251 seconds.
-  path: Assets/蛋壳素材/按钮.png
-  artifactKey: Guid(afe5587b919594f45bae5620d68c7f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/按钮.png using Guid(afe5587b919594f45bae5620d68c7f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'cbba6a7c2a41a9aac8fdf0fa0d2ec437') in 0.057445 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 12.100438 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(8ff395a968492e84f81858a965f422e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(8ff395a968492e84f81858a965f422e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '97d86186617f3fba154d5d05b678e39c') in 0.000498 seconds
+  Time since last request: 14298.911512 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(73c26c706c1730f4eb895c43761f51f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(73c26c706c1730f4eb895c43761f51f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b7a9e632bffe0c61f2960bd47a8e0360') in 0.002082 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1352.154256 seconds.
-  path: Assets/蛋壳素材/图片素材
-  artifactKey: Guid(e8c7370304618cc4cb52126de0b5b8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/图片素材 using Guid(e8c7370304618cc4cb52126de0b5b8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '56e5c8009c58201ae31a5c4761f2d0c3') in 0.000705 seconds
+  Time since last request: 23.830066 seconds.
+  path: Assets/Scripts/SceneLoad.cs
+  artifactKey: Guid(91b20c954426ac14cb2576be544174de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneLoad.cs using Guid(91b20c954426ac14cb2576be544174de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e2a31af13ec7990ef33edef3f9d9144f') in 0.000976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.322 seconds
+Refreshing native plugins compatible for Editor in 25.65 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.573 seconds
+Domain Reload Profiling: 3845ms
+	BeginReloadAssembly (472ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (149ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (649ms)
+		LoadAssemblies (787ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (48ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2574ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (734ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (453ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 18.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (35.8 KB). Loaded Objects now: 4600.
+Memory consumption went from 146.4 MB to 146.3 MB.
+Total: 3.568500 ms (FindLiveObjects: 0.321400 ms CreateObjectMapping: 0.118800 ms MarkObjects: 3.055500 ms  DeleteObjects: 0.071500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.282281 seconds.
+  path: Assets/Scripts/SceneLoad.cs
+  artifactKey: Guid(91b20c954426ac14cb2576be544174de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneLoad.cs using Guid(91b20c954426ac14cb2576be544174de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a9df7996196eb3963c03444b5c871ad7') in 0.003349 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.293093 seconds.
+  Time since last request: 36.875553 seconds.
   path: Assets/蛋壳素材/图片素材/主角.png
   artifactKey: Guid(f78fd8be5129f0b499c7a856dfb5411b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/蛋壳素材/图片素材/主角.png using Guid(f78fd8be5129f0b499c7a856dfb5411b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'fc1e191ea8e7d1c44b0e39e1634de12a') in 0.013231 seconds
+ -> (artifact id: 'fc1e191ea8e7d1c44b0e39e1634de12a') in 0.054154 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 6.174345 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Color Fill 1.png
-  artifactKey: Guid(e9c4214f34b279e4db600a91f07c7ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Color Fill 1.png using Guid(e9c4214f34b279e4db600a91f07c7ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 1.999194 seconds.
+  path: Assets/蛋壳素材/文字/Alibaba.ttf
+  artifactKey: Guid(f418bff3eedf0ec46a6396cfcc80222a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/蛋壳素材/文字/Alibaba.ttf using Guid(f418bff3eedf0ec46a6396cfcc80222a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '2bf7c28addec980ee455bc0062dfb183') in 0.022596 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001198 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Exit.png
-  artifactKey: Guid(220839109b7b37f4dbd3faf65c4b8af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Exit.png using Guid(220839109b7b37f4dbd3faf65c4b8af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '13ad53d0ea7c0803460019c1e1463e60') in 0.009951 seconds
+ -> (artifact id: '67c1b461aa655b41202de426e830fbb4') in 0.039271 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_015.png
-  artifactKey: Guid(274fd5823cf193545866791241877723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_015.png using Guid(274fd5823cf193545866791241877723) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '3539ee654ad08c46e7116da115f6085f') in 0.010570 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_035.png
-  artifactKey: Guid(6a6906eb65908c545856095d60846e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_035.png using Guid(6a6906eb65908c545856095d60846e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'b771e2af740a07c9a0951cb8845c60d7') in 0.008733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_025.png
-  artifactKey: Guid(e881ee88e19c9cd4b84e90029f4e36bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_025.png using Guid(e881ee88e19c9cd4b84e90029f4e36bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '7c2243710697d1a15c96f00043ac57d1') in 0.007815 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_032.png
-  artifactKey: Guid(863078fcf14492d42bdb4ee40d5c6ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_032.png using Guid(863078fcf14492d42bdb4ee40d5c6ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '0c3845cfbb12e0bdb65f2f3ef900521d') in 0.008903 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_021.png
-  artifactKey: Guid(3ceab1d1f4c7ace43a3654c4346328d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_021.png using Guid(3ceab1d1f4c7ace43a3654c4346328d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'c70d29f9582e6042c8d00fb901173f01') in 0.010441 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_022.png
-  artifactKey: Guid(7e66df716ca24a04ba1394af79a2aaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_022.png using Guid(7e66df716ca24a04ba1394af79a2aaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '6eacc20f3a7d4d77748742af9af78dbc') in 0.008782 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_033.png
-  artifactKey: Guid(4d8ffea11250b564489691c74f1d7ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_033.png using Guid(4d8ffea11250b564489691c74f1d7ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '36bbb16e150dd0c1c352b5e69ec962a8') in 0.009418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_027.png
-  artifactKey: Guid(1478724bc5ea7f5449b5e289504361f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_027.png using Guid(1478724bc5ea7f5449b5e289504361f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '141d78960103fd671d83a8a292e23713') in 0.008395 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_009.png
-  artifactKey: Guid(508f201d802854a43b37429cbc7b651d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_009.png using Guid(508f201d802854a43b37429cbc7b651d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  path: Assets/蛋壳素材/文字/MochiyPopOne.ttf
+  artifactKey: Guid(52f0c18ef745a064196ff6a9a499a874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/蛋壳素材/文字/MochiyPopOne.ttf using Guid(52f0c18ef745a064196ff6a9a499a874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '655b79ea271ea600f4a768e32b840376') in 0.010662 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_WaitForNew.png
-  artifactKey: Guid(5aadafe9371112b4e9b4e422e82fcb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_WaitForNew.png using Guid(5aadafe9371112b4e9b4e422e82fcb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '40df382cc4cc272c06d61ca34530854f') in 0.008628 seconds
+ -> (artifact id: '22d4ca89a844224fe816502cc99d4a4c') in 0.017357 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_012.png
-  artifactKey: Guid(368bb88b80a82b24f9e0441ff6f788d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_012.png using Guid(368bb88b80a82b24f9e0441ff6f788d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'cb0cc60a23ed6ce4262f4b4c68ca1b22') in 0.009865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_007.png
-  artifactKey: Guid(d6ba03108225c88419ad878b99f55b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_007.png using Guid(d6ba03108225c88419ad878b99f55b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'd78b2feab267efea9e229102b654dc6c') in 0.010135 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_005.png
-  artifactKey: Guid(bc71ed2d250bc0649bf7b740a332ccfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_005.png using Guid(bc71ed2d250bc0649bf7b740a332ccfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'a1931b93ace94a394e68778cb962b7a2') in 0.009412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_006.png
-  artifactKey: Guid(08eba4aa7c95e7045b336dde49aa8043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_006.png using Guid(08eba4aa7c95e7045b336dde49aa8043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '78087e546ade47b6f5a4460e1dfbe176') in 0.012146 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_020.png
-  artifactKey: Guid(8d65b48adf801e045b44a7ff2b58a240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_020.png using Guid(8d65b48adf801e045b44a7ff2b58a240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'c4137e395794c9a4c4be5d38723fba91') in 0.009804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_029.png
-  artifactKey: Guid(650a8b107f51d634d90769a5a8cd4d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_029.png using Guid(650a8b107f51d634d90769a5a8cd4d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '32f5e2a05822016740aa190fa06e720e') in 0.010208 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_017.png
-  artifactKey: Guid(b4d1b7a318046e04690c5f28057f50cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_017.png using Guid(b4d1b7a318046e04690c5f28057f50cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '530cb82473bdbedc16e4e281c005b17b') in 0.009909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_036.png
-  artifactKey: Guid(24a1d0371964cc945888fec7a11e0ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_036.png using Guid(24a1d0371964cc945888fec7a11e0ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'c9a652830e6b12bb99eb4e0da1dda14c') in 0.009229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_014.png
-  artifactKey: Guid(a6e08e790c1cc0f49a23662406b02e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_014.png using Guid(a6e08e790c1cc0f49a23662406b02e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'b4d8b3efa23c8254e77b88a1045d894a') in 0.010236 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Layer 2.png
-  artifactKey: Guid(759c1ebd104c83342885298ff2928535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Layer 2.png using Guid(759c1ebd104c83342885298ff2928535) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '8e81121fafcd2d08b47f3ced8d049a51') in 0.010223 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/蛋壳素材/界面UI/关卡图标/Mission_030.png
-  artifactKey: Guid(5655fba98fd108447a714d2f961d7c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/关卡图标/Mission_030.png using Guid(5655fba98fd108447a714d2f961d7c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '791be18a492375a6d89ca2d8780460bd') in 0.008959 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.322741 seconds.
-  path: Assets/蛋壳素材/界面UI/主体和交互ui/2.png
-  artifactKey: Guid(7f366a966fc1dcb4191d13a5b9b27847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/主体和交互ui/2.png using Guid(7f366a966fc1dcb4191d13a5b9b27847) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '1cdfedfc738322544c6cd970375d5d30') in 0.008875 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/蛋壳素材/界面UI/主体和交互ui/Color Fill 3.png
-  artifactKey: Guid(cd9387372cfc50d4c9ff13bb6da2d055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/主体和交互ui/Color Fill 3.png using Guid(cd9387372cfc50d4c9ff13bb6da2d055) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '652706ab3bc0190d815c313eb89a1ea5') in 0.007569 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/蛋壳素材/界面UI/主体和交互ui/Aa.png
-  artifactKey: Guid(ec426ad78a859674a877d01eec01f418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/主体和交互ui/Aa.png using Guid(ec426ad78a859674a877d01eec01f418) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'a06220629ea60a057b082fc80b3a942d') in 0.008769 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/蛋壳素材/界面UI/主体和交互ui/7.png
-  artifactKey: Guid(aa05840f55dfeed4eb37f713cce29dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/主体和交互ui/7.png using Guid(aa05840f55dfeed4eb37f713cce29dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'f4f4fb8a279d3f7a9cebe2d7c0cc4863') in 0.012454 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/蛋壳素材/界面UI/主体和交互ui/Layer 8.png
-  artifactKey: Guid(65f66d2d59186a546b6ab70bd041a9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/主体和交互ui/Layer 8.png using Guid(65f66d2d59186a546b6ab70bd041a9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '4805b563d6a8261dab6e500f85464dab') in 0.008924 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/蛋壳素材/界面UI/主体和交互ui/Color Fill 2.png
-  artifactKey: Guid(fe10984d93d658b4abc71fd2ae2fd859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/主体和交互ui/Color Fill 2.png using Guid(fe10984d93d658b4abc71fd2ae2fd859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '7fe4af4b150fbda7f2af1de83bf6c38b') in 0.007935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/蛋壳素材/界面UI/主体和交互ui/Layer 6.png
-  artifactKey: Guid(ed4823a1aaa1a62488564e1f62c43fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/主体和交互ui/Layer 6.png using Guid(ed4823a1aaa1a62488564e1f62c43fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'e43e2ac0953d73f5c4ebc6bd0bc5e89d') in 0.008724 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/蛋壳素材/界面UI/主体和交互ui/qq.png
-  artifactKey: Guid(71258de3784a4d8468a0a1cee46a90c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/主体和交互ui/qq.png using Guid(71258de3784a4d8468a0a1cee46a90c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '07a9730c60746166a1a2bbf326f16e73') in 0.007703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/蛋壳素材/界面UI/主体和交互ui/Color Fill 4.png
-  artifactKey: Guid(c592c0751140fbc4f81d7d595c460afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/主体和交互ui/Color Fill 4.png using Guid(c592c0751140fbc4f81d7d595c460afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '993da16798bf3806463b1bcab451dc08') in 0.008896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/蛋壳素材/界面UI/主体和交互ui/Static.png
-  artifactKey: Guid(9c2ba163d1369cd43b11efde04bd9e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/主体和交互ui/Static.png using Guid(9c2ba163d1369cd43b11efde04bd9e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'f8d1ec73fa1d6e2a022a922ba84ac156') in 0.018249 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/蛋壳素材/界面UI/主体和交互ui/8.png
-  artifactKey: Guid(0f71b407fca62d342a99a2bb27468032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/主体和交互ui/8.png using Guid(0f71b407fca62d342a99a2bb27468032) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'e3d2ca38efcccafbe909418a83dde4b4') in 0.011767 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/蛋壳素材/界面UI/主体和交互ui/4.png
-  artifactKey: Guid(82a42734e5b721743b05b6937e5f1dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/主体和交互ui/4.png using Guid(82a42734e5b721743b05b6937e5f1dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'e8bb7023c4cd7230ac372415c0e30c84') in 0.009292 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/蛋壳素材/界面UI/主体和交互ui/5.png
-  artifactKey: Guid(b0a6298146b5acd429b7905d189a2343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/主体和交互ui/5.png using Guid(b0a6298146b5acd429b7905d189a2343) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'd6b9e16acdfc201f16d9668bcc68a07b') in 0.008521 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 6.902977 seconds.
-  path: Assets/蛋壳素材/界面UI/边框和其他/combie_entity.png
-  artifactKey: Guid(055eb6c5ae8059a4b8374aa750cfa1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/边框和其他/combie_entity.png using Guid(055eb6c5ae8059a4b8374aa750cfa1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'ee82247e5e0ea47f42ad98458fb66336') in 0.028484 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/蛋壳素材/界面UI/边框和其他/Stars.png
-  artifactKey: Guid(62a18a92beb13c6408472191d4b210ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/边框和其他/Stars.png using Guid(62a18a92beb13c6408472191d4b210ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '285a0d967e3a6a5b6a4b31898dfbb8d8') in 0.009588 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/蛋壳素材/界面UI/边框和其他/Light_114.png
-  artifactKey: Guid(235f6c21df8ae024d9c1dd35b8741e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/边框和其他/Light_114.png using Guid(235f6c21df8ae024d9c1dd35b8741e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'c1031c14763f4b7070ec1cf8b4807bcc') in 0.013040 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/蛋壳素材/界面UI/边框和其他/Layer 2.png
-  artifactKey: Guid(b02fa030087b9814b99ebbd5b02733de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/边框和其他/Layer 2.png using Guid(b02fa030087b9814b99ebbd5b02733de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '0ec8f03c49ac930a718a02d4e3935821') in 0.010210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/蛋壳素材/界面UI/边框和其他/eff_shadow.png
-  artifactKey: Guid(ac523487aa7db8d4f8da77054b5895e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/边框和其他/eff_shadow.png using Guid(ac523487aa7db8d4f8da77054b5895e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'fdfff218a97878cbfc3a2feddbc75fc6') in 0.013001 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/蛋壳素材/界面UI/边框和其他/Rune_011_0.png
-  artifactKey: Guid(46cc0a87a73c4bc44b0bb385ffd01bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/边框和其他/Rune_011_0.png using Guid(46cc0a87a73c4bc44b0bb385ffd01bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'e71f8f8abdfea58f74d8c9be88b800c6') in 0.016283 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/蛋壳素材/界面UI/边框和其他/Handler.png
-  artifactKey: Guid(082dd25b4ca91ba4dab60e6d7e77dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/边框和其他/Handler.png using Guid(082dd25b4ca91ba4dab60e6d7e77dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '985906c5ed7a2324756ec5c2f1b7bfae') in 0.008331 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.646793 seconds.
-  path: Assets/蛋壳素材/界面UI/加载页面/Logo.png
-  artifactKey: Guid(183cd81b81219af4389d8a9ae12127eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/加载页面/Logo.png using Guid(183cd81b81219af4389d8a9ae12127eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'f646097d260517445fda1fac9c9e99b3') in 0.011774 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 139.856773 seconds.
-  path: Assets/蛋壳素材/界面UI/装备系统ui/2.png
-  artifactKey: Guid(615354c02f7464646903308a1ac269c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/装备系统ui/2.png using Guid(615354c02f7464646903308a1ac269c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'dc72c3c663d21e47d1972daa19c79857') in 0.013881 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/蛋壳素材/界面UI/装备系统ui/3.png
-  artifactKey: Guid(f35ca8f1ae1a432499842c03a3176a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/装备系统ui/3.png using Guid(f35ca8f1ae1a432499842c03a3176a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '7ff9cd0b6d781f40d66d82918182e8f7') in 0.010889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/蛋壳素材/界面UI/装备系统ui/8.png
-  artifactKey: Guid(a29a1946897559a478ba65e89ea2ab36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/装备系统ui/8.png using Guid(a29a1946897559a478ba65e89ea2ab36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '95f533b2e99b5ce90147cd93ef2004bc') in 0.011819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/蛋壳素材/界面UI/装备系统ui/Color Fill 3.png
-  artifactKey: Guid(6f0c76d62450d9349acc1f0add4ed588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/装备系统ui/Color Fill 3.png using Guid(6f0c76d62450d9349acc1f0add4ed588) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '544ee16461bc581e18ecd06c71d63083') in 0.008305 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/蛋壳素材/界面UI/装备系统ui/Gatlin.png
-  artifactKey: Guid(20140f2b280a231418d01827073ae398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/装备系统ui/Gatlin.png using Guid(20140f2b280a231418d01827073ae398) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'cfdffa226a20925338c1dcbdf1bbbf7a') in 0.009244 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/蛋壳素材/界面UI/装备系统ui/9.png
-  artifactKey: Guid(a47c9dd067f2a104bb342103f8eb9569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/装备系统ui/9.png using Guid(a47c9dd067f2a104bb342103f8eb9569) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '778049d3585ec50b49f64f9aaf19df22') in 0.009870 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/蛋壳素材/界面UI/装备系统ui/PlayerAim.png
-  artifactKey: Guid(ca4d583b5153bfb47b63b7469a2c5f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/装备系统ui/PlayerAim.png using Guid(ca4d583b5153bfb47b63b7469a2c5f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '6555db6a39eb0690001e6da9ddf85a8c') in 0.009912 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/蛋壳素材/界面UI/装备系统ui/10.png
-  artifactKey: Guid(084abdc245b1b7f4b8c7f5d4b15278c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/装备系统ui/10.png using Guid(084abdc245b1b7f4b8c7f5d4b15278c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'e30446abab9434ce48dfbc8c72b67dcb') in 0.012959 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/蛋壳素材/界面UI/装备系统ui/Crosshair_BaseballBat.png
-  artifactKey: Guid(ecc10b9ddc879e340a48a377bb3122c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/装备系统ui/Crosshair_BaseballBat.png using Guid(ecc10b9ddc879e340a48a377bb3122c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '5980c94745b1e79942d286a421c6b4b5') in 0.008730 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/蛋壳素材/界面UI/装备系统ui/4.png
-  artifactKey: Guid(dbcc6063fb9c68a4a8e390ce7a9a96e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/装备系统ui/4.png using Guid(dbcc6063fb9c68a4a8e390ce7a9a96e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '36659bcd59f55567c6e8148cbbc9fdbf') in 0.010081 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/蛋壳素材/界面UI/装备系统ui/Layer 1.png
-  artifactKey: Guid(88b4a0214007d024393e29b8cb564372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/装备系统ui/Layer 1.png using Guid(88b4a0214007d024393e29b8cb564372) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '3a61e96c1d4fbf51001577dfca87dd12') in 0.008472 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/蛋壳素材/界面UI/装备系统ui/combie_entity_high.png
-  artifactKey: Guid(a0a9f2ae0c0ef4f4e88da3c1723457c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/装备系统ui/combie_entity_high.png using Guid(a0a9f2ae0c0ef4f4e88da3c1723457c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '6fb4a81035b441fdab60853b3f2fe64f') in 0.015055 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/蛋壳素材/界面UI/装备系统ui/Crosshair_Shotgun.png
-  artifactKey: Guid(d4b26f12af6ba734e8f46e95bff9865f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/蛋壳素材/界面UI/装备系统ui/Crosshair_Shotgun.png using Guid(d4b26f12af6ba734e8f46e95bff9865f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'beaeaa2399ce3c702db4f685c94b13d0') in 0.011045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 4
