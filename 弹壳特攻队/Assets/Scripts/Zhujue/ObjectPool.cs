@@ -1,11 +1,29 @@
 using UnityEngine;
 using System.Collections.Generic;
 
+// 对象池项：用于跟踪对象的原始预制体
+public class ObjectPoolItem : MonoBehaviour
+{
+    private GameObject originalPrefab;
+
+    // 设置原始预制体
+    public void SetOriginalPrefab(GameObject prefab)
+    {
+        originalPrefab = prefab;
+    }
+
+    // 获取原始预制体
+    public GameObject GetOriginalPrefab()
+    {
+        return originalPrefab;
+    }
+}
+
+// 对象池管理器
 public class ObjectPool : MonoBehaviour
 {
     public static ObjectPool Instance { get; private set; }
 
-    // 存储不同类型的对象池
     private Dictionary<GameObject, Queue<GameObject>> objectPools = new Dictionary<GameObject, Queue<GameObject>>();
 
     void Awake()
@@ -15,83 +33,96 @@ public class ObjectPool : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
-        else
-        {
-            Destroy(gameObject);
-        }
+        else Destroy(gameObject);
     }
 
-    // 从对象池获取对象
+    // 从对象池生成对象
     public GameObject Spawn(GameObject prefab, Vector3 position, Quaternion rotation)
     {
-        // 如果对象池不存在，创建新的对象池
         if (!objectPools.ContainsKey(prefab))
-        {
             objectPools[prefab] = new Queue<GameObject>();
-        }
 
         GameObject obj;
-
-        // 如果池中有可用对象，取出复用
         if (objectPools[prefab].Count > 0)
         {
+            // 从池中取出
             obj = objectPools[prefab].Dequeue();
             obj.transform.position = position;
             obj.transform.rotation = rotation;
             obj.SetActive(true);
         }
-        // 否则创建新对象
         else
         {
+            // 创建新对象
             obj = Instantiate(prefab, position, rotation);
-            // 添加对象池标签，方便识别
             obj.AddComponent<ObjectPoolItem>().SetOriginalPrefab(prefab);
         }
 
         return obj;
     }
 
-    // 将对象返回对象池
+    // 回收对象到池
     public void Despawn(GameObject obj)
     {
-        ObjectPoolItem poolItem = obj.GetComponent<ObjectPoolItem>();
+        if (obj == null) return;
 
+        ObjectPoolItem poolItem = obj.GetComponent<ObjectPoolItem>();
         if (poolItem != null)
         {
             GameObject originalPrefab = poolItem.GetOriginalPrefab();
-
-            // 如果该类型的对象池存在
-            if (objectPools.ContainsKey(originalPrefab))
+            if (originalPrefab != null && objectPools.ContainsKey(originalPrefab))
             {
                 obj.SetActive(false);
                 objectPools[originalPrefab].Enqueue(obj);
             }
             else
             {
-                // 如果对象池不存在，直接销毁对象
+                // 如果找不到对应的池，直接销毁
                 Destroy(obj);
             }
         }
         else
         {
-            // 如果对象没有池标签，直接销毁
+            // 如果对象没有ObjectPoolItem组件，直接销毁
             Destroy(obj);
         }
     }
+
+    // 延迟回收对象
+    public void Despawn(GameObject obj, float delay)
+    {
+        if (obj == null) return;
+
+        // 创建临时对象处理延迟
+        GameObject delayObj = new GameObject("DespawnDelay");
+        delayObj.transform.SetParent(transform);
+        DelayCall delayCall = delayObj.AddComponent<DelayCall>();
+        delayCall.Setup(obj, delay);
+    }
 }
 
-// 对象池标记组件
-public class ObjectPoolItem : MonoBehaviour
+// 延迟调用辅助类
+public class DelayCall : MonoBehaviour
 {
-    private GameObject originalPrefab;
+    private GameObject targetObject;
+    private float delayTime;
+    private float startTime;
 
-    public void SetOriginalPrefab(GameObject prefab)
+    public void Setup(GameObject obj, float delay)
     {
-        originalPrefab = prefab;
+        targetObject = obj;
+        delayTime = delay;
+        startTime = Time.time;
     }
 
-    public GameObject GetOriginalPrefab()
+    void Update()
     {
-        return originalPrefab;
+        if (Time.time >= startTime + delayTime)
+        {
+            if (targetObject != null)
+                ObjectPool.Instance.Despawn(targetObject);
+
+            Destroy(gameObject);
+        }
     }
 }
