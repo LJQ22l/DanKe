@@ -73,7 +73,20 @@ public class WeaponController : MonoBehaviour
 
         foreach (Collider2D enemy in enemies)
         {
-            float distance = Vector2.Distance(transform.position, enemy.transform.position);
+            Rigidbody2D enemyRb = enemy.GetComponent<Rigidbody2D>();
+            if (enemyRb == null) continue;
+
+            // 将 Vector3 转换为 Vector2 进行计算
+            Vector2 enemyPosition = enemy.transform.position;
+            Vector2 enemyVelocity = enemyRb.velocity;
+            Vector2 myPosition = transform.position;
+
+            // 预测敌人位置
+            float flightTime = Vector2.Distance(myPosition, enemyPosition) / bulletSpeed;
+            Vector2 predictedPosition = enemyPosition + (enemyVelocity * flightTime);
+
+            float distance = Vector2.Distance(myPosition, predictedPosition);
+
             if (distance < minDistance)
             {
                 minDistance = distance;
