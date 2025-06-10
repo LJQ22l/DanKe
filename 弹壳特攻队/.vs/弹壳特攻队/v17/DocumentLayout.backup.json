@@ -3,24 +3,56 @@
   "WorkspaceRootPath": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|d:\\danke\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|d:\\danke\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\playerexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\enemy\\enemygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\floatingtextmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\floatingtextmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|d:\\danke\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\levelupuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelupuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\ipickupable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ipickupable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\zhujue\\weaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zhujue\\weaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|d:\\danke\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\zhujue\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zhujue\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\zhujue\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zhujue\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\zhujue\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zhujue\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\enemy\\enemygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\zhujue\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zhujue\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B76811EB-5C15-58FD-3A9E-90F0A02063CC}|Assembly-CSharp.csproj|D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\assets\\scripts\\camera\\joystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,37 +74,134 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Zhujue\\PlayerHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Zhujue\\PlayerHealth.cs",
-              "ToolTip": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Zhujue\\PlayerHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Zhujue\\PlayerHealth.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wA4AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "LevelUpUIManager.cs",
+              "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\LevelUpUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelUpUIManager.cs",
+              "ToolTip": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\LevelUpUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelUpUIManager.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowC4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T11:19:05.357Z",
+              "WhenOpened": "2025-06-10T10:56:30.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "IPickupable.cs",
+              "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\IPickupable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IPickupable.cs",
+              "ToolTip": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\IPickupable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IPickupable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T08:48:32.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FloatingTextManager.cs",
+              "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\FloatingTextManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FloatingTextManager.cs",
+              "ToolTip": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\FloatingTextManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FloatingTextManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T08:20:37.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerStats.cs",
+              "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\PlayerStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerStats.cs",
+              "ToolTip": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\PlayerStats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T08:18:45.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Coin.cs",
+              "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Coin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Coin.cs",
+              "ToolTip": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Coin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Coin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T08:18:06.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerExperience.cs",
+              "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\PlayerExperience.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerExperience.cs",
+              "ToolTip": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\PlayerExperience.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerExperience.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAowGkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T08:12:04.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Enemy\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
+              "ToolTip": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Enemy\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T11:04:52.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "WeaponController.cs",
               "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Zhujue\\WeaponController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Zhujue\\WeaponController.cs",
               "ToolTip": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Zhujue\\WeaponController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Zhujue\\WeaponController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAUwGEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAkwLkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T11:13:44.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T11:13:44.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "ObjectPool.cs",
+              "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Zhujue\\ObjectPool.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Zhujue\\ObjectPool.cs",
+              "ToolTip": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Zhujue\\ObjectPool.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Zhujue\\ObjectPool.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAgwDgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T11:31:16.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Timer.cs",
+              "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Timer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Timer.cs",
+              "ToolTip": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Timer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Timer.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:24:17.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "EnemyGenerator.cs",
               "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Enemy\\EnemyGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyGenerator.cs",
@@ -80,38 +209,35 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyGenerator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T11:07:10.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T11:07:10.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Bullet.cs",
               "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Zhujue\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Zhujue\\Bullet.cs",
               "ToolTip": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Zhujue\\Bullet.cs",
               "RelativeToolTip": "Assets\\Scripts\\Zhujue\\Bullet.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAqwDwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T11:05:27.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T11:05:27.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Enemy\\Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
-              "ToolTip": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Enemy\\Enemy.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs*",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAswEcAAAANAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Zhujue\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Zhujue\\PlayerHealth.cs",
+              "ToolTip": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Zhujue\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Zhujue\\PlayerHealth.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T11:04:52.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T11:19:05.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "BackgroundGenerator.cs",
               "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Camera\\BackgroundGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\BackgroundGenerator.cs",
@@ -119,12 +245,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Camera\\BackgroundGenerator.cs",
               "ViewState": "AgIAAH0AAAAAAAAAAAAAAKAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T07:26:03.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T07:26:03.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Camera\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\CameraFollow.cs",
@@ -132,12 +257,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Camera\\CameraFollow.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAAwGEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T07:24:51.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T07:24:51.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "Joystick.cs",
               "DocumentMoniker": "D:\\DanKe\\\u5F39\u58F3\u7279\u653B\u961F\\Assets\\Scripts\\Camera\\Joystick.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\Joystick.cs",
@@ -145,8 +269,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Camera\\Joystick.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T07:25:24.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T07:25:24.416Z"
             }
           ]
         }

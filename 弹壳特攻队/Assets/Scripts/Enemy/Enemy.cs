@@ -124,10 +124,10 @@ public class Enemy : MonoBehaviour
         // 生成掉落物品
         SpawnCoins();
 
-        //// 增加玩家经验
-        //PlayerExperience playerExp = FindObjectOfType<PlayerExperience>();
-        //if (playerExp != null)
-        //    playerExp.AddExperience(experienceValue);
+        // 增加玩家经验
+        PlayerExperience playerExp = FindObjectOfType<PlayerExperience>();
+        if (playerExp != null)
+            playerExp.AddExperience(experienceValue);
     }
 
     private void SpawnCoins()

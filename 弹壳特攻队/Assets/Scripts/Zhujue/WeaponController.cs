@@ -173,4 +173,15 @@ public class WeaponController : MonoBehaviour
             default: return new Color(1, 0.5f, 0, 1);    // 传说(橙色)
         }
     }
+    public void IncreaseDamage(float amount)
+    {
+        damage += amount;
+        ShowDamageIncreasePopup(amount);
+    }
+
+    // 显示攻击力提升提示
+    private void ShowDamageIncreasePopup(float amount)
+    {
+        FloatingTextManager.Instance?.CreateFloatingText($"攻击力 +{amount:F1}", transform.position + Vector3.up * 1.5f, Color.cyan);
+    }
 }
