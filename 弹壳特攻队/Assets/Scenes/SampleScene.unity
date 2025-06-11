@@ -361,7 +361,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000038147, y: 169}
+  m_AnchoredPosition: {x: 15, y: 179}
   m_SizeDelta: {x: 638.7254, y: 169.1371}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1533582805
@@ -506,6 +506,7 @@ GameObject:
   - component: {fileID: 1614476386}
   - component: {fileID: 1614476385}
   - component: {fileID: 1614476384}
+  - component: {fileID: 1614476387}
   m_Layer: 5
   m_Name: StartBtn
   m_TagString: Untagged
@@ -530,7 +531,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12.1291, y: -555.2579}
+  m_AnchoredPosition: {x: 15, y: -510}
   m_SizeDelta: {x: 324.2582, y: 105.4841}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1614476384
@@ -577,13 +578,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1614476387}
+        m_TargetAssemblyTypeName: Load, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -627,6 +628,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1614476382}
   m_CullTransparentMesh: 1
+--- !u!114 &1614476387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614476382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4f9c6975ce53924faa2abb1040a7d72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1845059729
 GameObject:
   m_ObjectHideFlags: 0
